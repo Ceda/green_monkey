@@ -7,12 +7,11 @@ require 'sinatra'
 require 'green_monkey'
 require 'ostruct'
 
-
 get '/' do
   @post = OpenStruct.new(
     html_schema_type: Mida(:BlogPosting),
-    id: 5, 
-    title: 'Hello world', 
+    id: 5,
+    title: 'Hello world',
     body: 'Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort',
     created_at: Time.parse('10-feb-2012')
   )

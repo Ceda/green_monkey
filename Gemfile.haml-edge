@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gemspec
 
-gem "haml", git: "https://github.com/haml/haml.git"
+gem 'haml', git: 'https://github.com/haml/haml.git'
 gem 'tzinfo'

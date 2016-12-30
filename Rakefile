@@ -1,7 +1,7 @@
 require 'rubygems'
 
-task :default => :spec
+task default: :spec
 
-desc "Run Specs"
+desc 'Run Specs'
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new(:spec)
